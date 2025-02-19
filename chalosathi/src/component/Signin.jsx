@@ -81,6 +81,11 @@ function Signin() {
               </label>
               {errors.confirmPassword && <span className='text-red-500 italic text-sm'>{errors.confirmPassword.message}</span>}
 
+              <select className="select select-bordered w-full max-w-xs">
+                <option>Driver</option>
+                <option>User</option>
+              </select>
+
               </div>
               <button className='btn btn-info text-White w-full py-2 rounded-md '>Sign In</button>
               <hr />

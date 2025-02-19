@@ -5,7 +5,7 @@ function Login() {
   const onSubmit = data => console.log(data);
   return (
     <>
-    
+
       <div className='flex h-screen items-center justify-center flex-col relative bottom-5 '>
           <form onSubmit={handleSubmit(onSubmit)} className='space-y-3 px-8 py-4 rounded-lg border border-white' >
           <h1 className='text-3xl text-Blue font-dance mb-7'>
