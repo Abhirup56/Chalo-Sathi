@@ -14,6 +14,8 @@
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "leaflet": "^1.9.4",
+    "leaflet-color-markers": "^0.1.0",
+    "leaflet-routing-machine": "^3.2.12",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.54.2",

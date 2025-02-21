@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
   <ClerkProvider 
     publishableKey={PUBLISHABLE_KEY}
-    afterSignInUrl="/rides"
+    afterSignInUrl="/profile"
     afterSignOutUrl="/"
     appearance={{ signIn: { floating: false } }}
    >

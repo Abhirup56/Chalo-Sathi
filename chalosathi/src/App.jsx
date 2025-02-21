@@ -8,6 +8,7 @@ import SignUpPage from "./component/auth/SignUp";
 import SignInPage from "./component/auth/SignIn";
 import RequireAuth from "./RequireAuth.jsx"; 
 import { UserProvider } from "./context/UserProvider.jsx"; 
+import About from "./About/About.jsx";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/sign-in" element={<SignInPage />} />
             <Route path="/sign-up" element={<SignUpPage />} />
-            {/* <Route path="/about" element={<About />} /> */}
+            <Route path="/about" element={<About />} />
 
 
             {/* Protected Routes */}
