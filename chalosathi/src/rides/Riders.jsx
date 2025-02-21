@@ -1,8 +1,6 @@
 import React from "react";
 import Ride from "./Ride";
 import MyMap from "../home/MyMap";
-  // ✅ Fixed missing import
-
 function Riders() {
   console.log("Riders component is rendering..."); // ✅ Debugging
 
