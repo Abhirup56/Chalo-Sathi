@@ -65,13 +65,6 @@ function Header() {
       {isOpen && (
         <div className="md:hidden fixed top-0 left-0 h-full w-64 bg-[#121a21] shadow-lg">
           <div className="p-4">
-<<<<<<< HEAD
-            <Link to="/" className="block pb-2  text-white hover:bg-blue-700 hover:text-white hover:rounded-lg hover:p-2">Book ride</Link>
-            <Link to="/history" className="block py-2 text-white hover:bg-blue-700 hover:text-white hover:rounded-lg hover:p-2">History</Link>
-            <Link to="/profile" className="block py-2 text-white hover:bg-blue-700 hover:text-white hover:rounded-lg hover:p-2">Profile</Link>
-            <Link to="/about" className="block py-2 text-white hover:bg-blue-700">About</Link>
-            <button className="w-full mt-4 py-2 bg-red-500 rounded-md hover:bg-red-600">Logout</button>
-=======
             <Link to="/" className="block pb-2 text-white hover:bg-blue-700">
               Book ride
             </Link>
@@ -93,7 +86,7 @@ function Header() {
                 <UserButton afterSignOutUrl="/" className="w-full py-2 bg-gray-700 rounded-md hover:bg-gray-600" />
               </SignedIn>
             </div>
->>>>>>> 4ebfbf6bdc8f3d6800b446b64aef33ebcf4b4220
+
           </div>
         </div>
       )}

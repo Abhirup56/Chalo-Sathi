@@ -64,7 +64,7 @@ function Home() {
 
     if (!user) {
       return (
-        <div className="flex items-center justify-center text-white min-h-[calc(100vh-10rem)]"> {/* Added min-h and adjusted value */}
+        <div className="flex items-center justify-center text-white bg-info p-4 rounded-lg"> {/* Added min-h and adjusted value */}
           {error || 
           <a href='/sign-in' className="text-white">Please sign in to continue.</a>}
         </div>
